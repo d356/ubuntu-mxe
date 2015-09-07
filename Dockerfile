@@ -1,6 +1,6 @@
 FROM ubuntu:15.04 
 RUN apt-get update
-RUN apt-get install \
+RUN apt-get install -y \
     autoconf automake autopoint bash bison bzip2 cmake flex \
     gettext git g++ gperf intltool libffi-dev libtool \
     libltdl-dev libssl-dev libxml-parser-perl make openssl \
